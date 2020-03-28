@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
+#App desciption
+The webpage shows a list of group members who practices music together. The initial page(parent component) shows image, name, what he/she does. When the button associated with each profile(child component) is clicked, profile information is sent back to parent component. Parent component shows the detail in an alert message.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
