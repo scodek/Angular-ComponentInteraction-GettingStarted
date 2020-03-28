@@ -1,0 +1,10 @@
+<!--<div class="well hoverwell thumbnail">-->
+  <div class="col-sm-6 pad-left">
+    <img src="../assets/images/{{member?.firstName.charAt(0).toLowerCase()+member?.firstName.slice(1)}}.jpg" style="width:100px;height:150px"/>
+  </div>
+  <div class="col-sm-6">
+  <p>Name: {{member?.firstName}} {{member?.lastName}}</p>
+  <p>Plays: {{member?.plays}}</p>
+  <button class="btn btn-primary" (click)="handleClick()">Check Detail</button>
+  </div>
+  <!--</div>-->
